@@ -7,11 +7,6 @@
         <title></title>
         <style>
             
-            p{
-                color : rgb(246, 246, 246);
-                font-size: 20px;
-                width: large;
-            }
             h1{
                 color : rgb(249, 252, 249);
                 font-size: 60px;
@@ -21,12 +16,6 @@
                 color : rgb(249, 252, 249);
                 font-size: 30px;
                 text-align: center;
-            }
-            #mainpoint{
-                font-size: 36px;
-                font-weight: bold;
-                /*background-color: rgb(150, 211, 46);*/
-                opacity: .9;
             }
             
             /*VERY GOOD WAY TO ELIMINATE REPPETETIVE DECLARATION*/
@@ -38,50 +27,63 @@
             p.highlight{
                 font-style: italic;
             }
-            /*.highlight.mainpoint{background-color: rgb(43, 61, 13);} */
             
             section li{
                 color :rgb(238, 239, 232);
             }
 
-            a:link{
+           a:link{
                 text-decoration:dotted;
-                color:white;
+                color:rgb(236, 239, 238);
                 display: block;
             }
             a:visited{
                 text-decoration: dashed;
                 color:rgb(240, 244, 243);
             }
-            html{
-                height: 100%;
-            }
+            
+            /*header li{
+                font-size: large;
+                cursor: pointer;
+            }*/
+            
             body{
                 margin: 0cm;
                 width: 100%;
                 height: 100%;
             }
+            
             .nav{
                 position: fixed;
                 top: 0;
+                width: 100%;
                 padding: 0px;
                 background-color: rgba(0, 0,0, 0.43);
                 list-style-type: none;
                 text-align: center;
                 margin: 0;
                 padding: 0;
-
                 
             }
-           
+            
+            .container{ 
+                margin-left: auto;
+                margin-right: auto;
+                width: 104px;
+            }
+            /*a{  
+                display: inline-block;
+                color:rgb(234, 243, 237);
+                font-family: Arial, Helvetica, sans-serif;
+            }*/
             .nav a:hover, a:active{
                 display: inline-block;
                 font-family: Arial, Helvetica, sans-serif;
                 color: white;
             }
             .nav li{
-               padding-block-start: 20px;
-                padding-block-end: 20px;
+                
+                border: 0px;
                 padding-block: 20px;
                 display: inline-block;
                 text-decoration:none;
@@ -131,21 +133,12 @@
                     <li><a href="Menu.html">Menu</a></li>
                     <li><a href="Reccettes.html">Recettes</a></li>
                     <li><a href="Press.html">Press</a></li>
-                </ul>
-
-                
+                </ul>     
             </header>
             
               
-        <img src="IbarissenThaghat.jpg" class="center" >
+         <img src="IbarissenThaghat.jpg" class="center" >
                     
-                <!--<p >   plus prcisément en plein coeur de béjaia.</p> -->
-                <!--<p > Vous pouvez trouver ici la grande histoire du Camembert Ibarissen, qui vient dun petit village en algerie,
-                    <nav>
-                <div id = "mainpoint"> Vous pouvez trouver ici la grande histoire du Camembert Ibarissen, qui vient dun petit village en algerie,
-                    plus prcisément en plein coeur de béjaia.</div>
-                <!-<span><p class="highlight">Meilleur Cammembert au lait de vaches.</p></span> -->
-            
             <main> 
                 
                 <div style=" background-color: rgba(0, 0,0, 0.43); 
@@ -159,7 +152,7 @@
                     <h3 style="font-size: x-large;">Contacter-nous au : 07 77 77 77 77</h3>
             </main>
             <footer> 
-                <p></p> 
+               
              </footer>
         </div>
     </body>
