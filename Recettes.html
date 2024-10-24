@@ -1,15 +1,12 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF_8">
-        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title></title>
         <style>
-            p{
-                color : rgb(246, 246, 246);
-                font-size: 20px;
-                width: large;
-            }
+            
             h1{
                 color : black;
                 font-size: 60px;
@@ -17,40 +14,25 @@
             }
             h2{
                 color :black;
-                font-size: 40px;
+                font-size: 30px;
                 text-align: center;
-            }
-            #mainpoint{
-                font-size: 36px;
-                font-weight: bold;
-                /*background-color: rgb(150, 211, 46);*/
-                opacity: .9;
+            }   
+            p.highlight{
+                font-style: italic;
             }
             
-            /*VERY GOOD WAY TO ELIMINATE REPPETETIVE DECLARATION*/
-            /*p,div{
-                color : rgb(241, 244, 241);
-                
-            }*/
-            /*.highlight{ background-color: rgb(180, 227, 132);} */
-            /*p.highlight{
-                font-style: italic;
-            }*/
-            /*.highlight.mainpoint{background-color: rgb(43, 61, 13);} 
-            section>h2{
-                color :rgb(239, 240, 233);
-            }*/
-            /*section li{
-                color :rgb(238, 239, 232);
-            }*/
-            a:link{
+            section li{
+                color :black;
+            }
+
+           a:link{
                 text-decoration:dotted;
-                color:rgb(236, 239, 238);
+                color:black;
                 display: block;
             }
             a:visited{
                 text-decoration: dashed;
-                color:rgb(240, 244, 243);
+                color:black;
             }
             
             /*header li{
@@ -69,7 +51,7 @@
                 top: 0;
                 width: 100%;
                 padding: 0px;
-                background-color: rgba(0, 0,0, 0.43);
+                background-color: white;
                 list-style-type: none;
                 text-align: center;
                 margin: 0;
@@ -82,15 +64,11 @@
                 margin-right: auto;
                 width: 104px;
             }
-            /*a{  
-                display: inline-block;
-                color:rgb(234, 243, 237);
-                font-family: Arial, Helvetica, sans-serif;
-            }*/
+            
             .nav a:hover, a:active{
                 display: inline-block;
                 font-family: Arial, Helvetica, sans-serif;
-                color: white;
+                color: black;
             }
             .nav li{
                 
@@ -102,42 +80,87 @@
                 padding-left: 20px;
                 padding-right: 20px;
             }
-            /* for cammembert ibarissen 
-            style="font-size: x-large; font-style: normal;font-weight: bold;
-                        font-family: Georgia, 'Times New Roman', Times, serif"*/
+             .center {
+                  padding-top: 6%;
+                  display: block;
+                  margin-top: auto;
+                  margin-left: auto;
+                  margin-right: auto;
+                  width: 50%;
+                  hight: 50%;
+                }
+            aside { 
+                    padding-top: 6%;
+                    width: 45%;
+                    padding-left: 0.3rem;
+                    margin-left: 0.3rem;
+                    margin-right: 0.3rem;
+                    float: right;
+                    /*box-shadow: inset 5px 0 5px -5px #29627e; */
+                    color: black;
+            }
+
+              @media all and (max-width: 450px) {
+
+                .nav li{
+                padding-block: 0px;
+                display: inline-block;
+                text-decoration:none;
+                font-size: 14px;
+                padding-left: 2px;
+                padding-right: 2px;
+                
+                }
+                h2{
+                    font-size: 10px;
+                }
+                aside { 
+                    padding-top: 3%;
+                    font-size: 10px;
+                    width: 40%;
+                    float: right;
+                    /*box-shadow: inset 5px 0 5px -5px #29627e; */
+                    color: black;
+                }
+                .center {
+                  padding-top:  10%;
+                  display: block;
+                  margin-top: 3%;
+                  width:  53%;
+                  
+                
+               
+                
+            }
         </style>
     </head>
     <body>
-        
-        <div>
-            <img src="https://www.bejaia-guidedepoche.com/images/logos_pub/2537/fromage-ibarissen.jpg" width="100%" border: 0>
-            <header>
+        <div> 
+            <header> 
                 
-               <ul class="nav">   
-                    <li><a href="#" ><b> FROMAGE IBARISSEN</b></a></li>
-        
+                <ul class="nav">   
+                    <li ><a  href="#" > FROMAGE IBARISSEN</a></li>
+
                     <li><a href="index.html">Acceuil</a></li>
                     <li><a href="Menu.html">Menu</a></li>
                     <li><a href="#">Recettes</a></li>
                     <li><a href="Press.html">Press</a></li>
-                    <!---
-                    <li><a href="Contact.html">Contact</a></li>
-                    -->
-                </ul>
+                </ul>     
             </header>
             
         </div>
-        <main style="color: black;"> 
-            <article>
-                <h2>Nos recettes</h2>
-                <h4>Notre fromagerie propose actuellement les  produits suivants : camembert,  brie,   frais à l’ail et au persil…</h4>
-                On aime partager avec vous du bon fromage. On compte aujourd'huie 8 ans d'expérience et de passions du fromage,
-                avec des recettes incontournables préparées avec nos soins.
-            </article>
+        
+
+        <main> 
+            <div>      
+               
+                
+            </div>
         </main>
-        <footer> 
-            <p></p> 
-         </footer>
+            <footer> 
+               
+             </footer>
+        </div>
     </body>
 
 </html>
