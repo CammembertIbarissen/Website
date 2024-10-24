@@ -86,7 +86,6 @@
                   margin-left: auto;
                   margin-right: auto;
                   width: 50%;
-                  hight: 50%;
                 }
             aside { 
                     padding-top: 6%;
@@ -99,6 +98,35 @@
                     color: black;
             }
 
+        @media all and (max-width: 450px) {
+
+            .nav li{
+            padding-block: 0px;
+            display: inline-block;
+            text-decoration:none;
+            font-size: 10px;
+            padding-left: 2px;
+            padding-right: 2px;
+
+            }
+            h2{
+                font-size: 10px;
+            }
+            aside { 
+                padding-top: 3%;
+                font-size: 10px;
+                width: 40%;
+                float: right;
+                /*box-shadow: inset 5px 0 5px -5px #29627e; */
+                color: black;
+            }
+            .center {
+            padding-top:  10%;
+            display: block;
+            margin-top: 1%;
+            width:  53%;
+            }
+        }
         </style>
     </head>
     <body>
@@ -115,30 +143,24 @@
                     <li><a href="Menu.html">Menu</a></li>
                     <li><a href="Recettes.html">Recettes</a></li>
                     <li><a href="#">Press</a></li>
-                    <!---
-                    <li><a href="Contact.html">Contact</a></li>
-                    -->
                 </ul>
             </header>
         </div>
         <main style="text-align: center;">
-        <aside style="
-            padding-left: 15px;
-            margin-left: 15px;
-            float: right; ">
-        <img src="Entretien.jpg" class= "center"  >
+            <div>
+                <img src="Entretien.jpg" width="40%" >
+                
             
-        
-            <div  class= "center">
-                <a id="mainpoint" href="https://www.express-dz.com/2019/05/12/entretien-avec-mekbel-said-proprietaire-de-la-fromagerie-ibarissen/">
-                <h2>Entretien avec Mr Mekbel</h2> </a> 
-                <p style="font-size: large;">Saïd Mekbel est un fromager dédié et passionné, natif d’El-Kseur. Technicien  agricole, Il a exercé  divers métiers dans le secteur public et privé  avant de lancer en 2010, une  unité de production spécialisée dans la fabrication des camemberts. Nous avons visité, récemment,
-                sa fromagerie située dans la ville d’El-Kseur  où il nous a accordé cet entretien..</p>
+                <div  style= "text-align: center; " >
+                    <a id="mainpoint" href="https://www.express-dz.com/2019/05/12/entretien-avec-mekbel-said-proprietaire-de-la-fromagerie-ibarissen/">
+                    <h2>Entretien avec Mr Mekbel</h2> </a> 
+                    Saïd Mekbel est un fromager dédié et passionné, natif d’El-Kseur. Technicien  agricole, Il a exercé  divers métiers dans le secteur public et privé  avant de lancer en 2010, une  unité de production spécialisée dans la fabrication des camemberts. Nous avons visité, récemment,
+                    sa fromagerie située dans la ville d’El-Kseur  où il nous a accordé cet entretien..
+                </div>
+                
             </div>
-            
-        </aside>
     
-        </main>
+        </main> 
         <footer> 
             <p></p> 
          </footer>
